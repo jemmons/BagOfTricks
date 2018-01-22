@@ -11,6 +11,9 @@
 		7358FCA01FD477CB00FC42B3 /* ClampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7358FC9E1FD477A800FC42B3 /* ClampTests.swift */; };
 		7358FCA21FD49B3A00FC42B3 /* Debounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7358FCA11FD49B3A00FC42B3 /* Debounce.swift */; };
 		7358FCA51FD4C04400FC42B3 /* DebounceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7358FCA31FD4C02000FC42B3 /* DebounceTests.swift */; };
+		73B8D38420164338008AED0D /* Siphon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B8D38320164338008AED0D /* Siphon.swift */; };
+		73B8D38620164464008AED0D /* Fillable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B8D38520164464008AED0D /* Fillable.swift */; };
+		73B8D38920164514008AED0D /* SiphonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B8D38720164511008AED0D /* SiphonTests.swift */; };
 		73CB73221F2B860F00C34A29 /* CartesianProductSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CB73211F2B860F00C34A29 /* CartesianProductSequence.swift */; };
 		73CB73251F2B867D00C34A29 /* StopwatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CB73231F2B867900C34A29 /* StopwatchTests.swift */; };
 		73CB73281F2B874700C34A29 /* CartesianProductSequenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CB73261F2B870400C34A29 /* CartesianProductSequenceTests.swift */; };
@@ -46,6 +49,9 @@
 		7358FC9E1FD477A800FC42B3 /* ClampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClampTests.swift; sourceTree = "<group>"; };
 		7358FCA11FD49B3A00FC42B3 /* Debounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debounce.swift; sourceTree = "<group>"; };
 		7358FCA31FD4C02000FC42B3 /* DebounceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceTests.swift; sourceTree = "<group>"; };
+		73B8D38320164338008AED0D /* Siphon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Siphon.swift; sourceTree = "<group>"; };
+		73B8D38520164464008AED0D /* Fillable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fillable.swift; sourceTree = "<group>"; };
+		73B8D38720164511008AED0D /* SiphonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiphonTests.swift; sourceTree = "<group>"; };
 		73CB73211F2B860F00C34A29 /* CartesianProductSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartesianProductSequence.swift; sourceTree = "<group>"; };
 		73CB73231F2B867900C34A29 /* StopwatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchTests.swift; sourceTree = "<group>"; };
 		73CB73261F2B870400C34A29 /* CartesianProductSequenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartesianProductSequenceTests.swift; sourceTree = "<group>"; };
@@ -118,6 +124,8 @@
 				73CB73211F2B860F00C34A29 /* CartesianProductSequence.swift */,
 				7358FC9C1FD4779200FC42B3 /* Numeric+Clamp.swift */,
 				73E1C0581FF95BAC006CFF78 /* Oscillator.swift */,
+				73B8D38520164464008AED0D /* Fillable.swift */,
+				73B8D38320164338008AED0D /* Siphon.swift */,
 			);
 			name = Sources;
 			path = ../Sources;
@@ -136,6 +144,7 @@
 				73CB73261F2B870400C34A29 /* CartesianProductSequenceTests.swift */,
 				7358FC9E1FD477A800FC42B3 /* ClampTests.swift */,
 				73E1C05A1FF964C4006CFF78 /* OscillatorTests.swift */,
+				73B8D38720164511008AED0D /* SiphonTests.swift */,
 			);
 			name = Tests;
 			path = ../Tests;
@@ -252,9 +261,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73B8D38420164338008AED0D /* Siphon.swift in Sources */,
 				C15BFA031EA010B800CE09B6 /* String+InsensitiveCompare.swift in Sources */,
 				C15BFA011EA0107C00CE09B6 /* Flow.swift in Sources */,
 				7358FCA21FD49B3A00FC42B3 /* Debounce.swift in Sources */,
+				73B8D38620164464008AED0D /* Fillable.swift in Sources */,
 				73E1C0591FF95BAC006CFF78 /* Oscillator.swift in Sources */,
 				C15BFA071EA0110800CE09B6 /* String+Trimming.swift in Sources */,
 				7358FC9D1FD4779200FC42B3 /* Numeric+Clamp.swift in Sources */,
@@ -274,6 +285,7 @@
 				7358FCA01FD477CB00FC42B3 /* ClampTests.swift in Sources */,
 				C15BFA0D1EA0117F00CE09B6 /* StringTrimmingTests.swift in Sources */,
 				73E1C05C1FF964C7006CFF78 /* OscillatorTests.swift in Sources */,
+				73B8D38920164514008AED0D /* SiphonTests.swift in Sources */,
 				C15BFA171EA0308C00CE09B6 /* NegativesTests.swift in Sources */,
 				7358FCA51FD4C04400FC42B3 /* DebounceTests.swift in Sources */,
 				73CB73281F2B874700C34A29 /* CartesianProductSequenceTests.swift in Sources */,
