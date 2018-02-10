@@ -11,9 +11,9 @@
 		7358FCA01FD477CB00FC42B3 /* ClampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7358FC9E1FD477A800FC42B3 /* ClampTests.swift */; };
 		7358FCA21FD49B3A00FC42B3 /* Debounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7358FCA11FD49B3A00FC42B3 /* Debounce.swift */; };
 		7358FCA51FD4C04400FC42B3 /* DebounceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7358FCA31FD4C02000FC42B3 /* DebounceTests.swift */; };
-		73B8D38420164338008AED0D /* Siphon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B8D38320164338008AED0D /* Siphon.swift */; };
+		73B8D38420164338008AED0D /* BindIfReady.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B8D38320164338008AED0D /* BindIfReady.swift */; };
 		73B8D38620164464008AED0D /* Fillable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B8D38520164464008AED0D /* Fillable.swift */; };
-		73B8D38920164514008AED0D /* SiphonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B8D38720164511008AED0D /* SiphonTests.swift */; };
+		73B8D38920164514008AED0D /* BindIfReadyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B8D38720164511008AED0D /* BindIfReadyTests.swift */; };
 		73B8D38E2016871B008AED0D /* Maybes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B8D38D2016871B008AED0D /* Maybes.swift */; };
 		73B8D391201687A6008AED0D /* MaybesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B8D38F20168773008AED0D /* MaybesTests.swift */; };
 		73CB73221F2B860F00C34A29 /* CartesianProductSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CB73211F2B860F00C34A29 /* CartesianProductSequence.swift */; };
@@ -51,9 +51,9 @@
 		7358FC9E1FD477A800FC42B3 /* ClampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClampTests.swift; sourceTree = "<group>"; };
 		7358FCA11FD49B3A00FC42B3 /* Debounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debounce.swift; sourceTree = "<group>"; };
 		7358FCA31FD4C02000FC42B3 /* DebounceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceTests.swift; sourceTree = "<group>"; };
-		73B8D38320164338008AED0D /* Siphon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Siphon.swift; sourceTree = "<group>"; };
+		73B8D38320164338008AED0D /* BindIfReady.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindIfReady.swift; sourceTree = "<group>"; };
 		73B8D38520164464008AED0D /* Fillable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fillable.swift; sourceTree = "<group>"; };
-		73B8D38720164511008AED0D /* SiphonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiphonTests.swift; sourceTree = "<group>"; };
+		73B8D38720164511008AED0D /* BindIfReadyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindIfReadyTests.swift; sourceTree = "<group>"; };
 		73B8D38D2016871B008AED0D /* Maybes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maybes.swift; sourceTree = "<group>"; };
 		73B8D38F20168773008AED0D /* MaybesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaybesTests.swift; sourceTree = "<group>"; };
 		73CB73211F2B860F00C34A29 /* CartesianProductSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartesianProductSequence.swift; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 				7358FC9C1FD4779200FC42B3 /* Numeric+Clamp.swift */,
 				73E1C0581FF95BAC006CFF78 /* Oscillator.swift */,
 				73B8D38520164464008AED0D /* Fillable.swift */,
-				73B8D38320164338008AED0D /* Siphon.swift */,
+				73B8D38320164338008AED0D /* BindIfReady.swift */,
 				73B8D38D2016871B008AED0D /* Maybes.swift */,
 			);
 			name = Sources;
@@ -149,7 +149,7 @@
 				73CB73261F2B870400C34A29 /* CartesianProductSequenceTests.swift */,
 				7358FC9E1FD477A800FC42B3 /* ClampTests.swift */,
 				73E1C05A1FF964C4006CFF78 /* OscillatorTests.swift */,
-				73B8D38720164511008AED0D /* SiphonTests.swift */,
+				73B8D38720164511008AED0D /* BindIfReadyTests.swift */,
 				73B8D38F20168773008AED0D /* MaybesTests.swift */,
 			);
 			name = Tests;
@@ -267,7 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73B8D38420164338008AED0D /* Siphon.swift in Sources */,
+				73B8D38420164338008AED0D /* BindIfReady.swift in Sources */,
 				C15BFA031EA010B800CE09B6 /* String+InsensitiveCompare.swift in Sources */,
 				C15BFA011EA0107C00CE09B6 /* Flow.swift in Sources */,
 				7358FCA21FD49B3A00FC42B3 /* Debounce.swift in Sources */,
@@ -293,7 +293,7 @@
 				C15BFA0D1EA0117F00CE09B6 /* StringTrimmingTests.swift in Sources */,
 				73E1C05C1FF964C7006CFF78 /* OscillatorTests.swift in Sources */,
 				73B8D391201687A6008AED0D /* MaybesTests.swift in Sources */,
-				73B8D38920164514008AED0D /* SiphonTests.swift in Sources */,
+				73B8D38920164514008AED0D /* BindIfReadyTests.swift in Sources */,
 				C15BFA171EA0308C00CE09B6 /* NegativesTests.swift in Sources */,
 				7358FCA51FD4C04400FC42B3 /* DebounceTests.swift in Sources */,
 				73CB73281F2B874700C34A29 /* CartesianProductSequenceTests.swift in Sources */,

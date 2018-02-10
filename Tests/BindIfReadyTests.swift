@@ -3,13 +3,13 @@ import BagOfTricks
 
 
 
-class SiphonTests: XCTestCase {
+class BindIfReadyTests: XCTestCase {
   struct Model {
     let value: String
   }
   
   
-  class Label: Fillable {
+  class Label: FillableObject {
     var text: String?
     func fill(with model: Model) {
       text = model.value
@@ -18,35 +18,34 @@ class SiphonTests: XCTestCase {
   
   
   class FakeViewController {
-    var labelSiphon = Siphon<Label>()
-    
+    var labelFiller = FillIfReady<Label>()
+
     func prepareForSegue(model: Model) {
-      labelSiphon.value = model
+      labelFiller.value = model
     }
     
     func viewDidLoad() {
-      labelSiphon.object = Label()
+      labelFiller.object = Label()
     }
   }
 
-
-  func testLateInitializtion() {
+  
+  func testFillableLateInitializtion() {
     let subject = FakeViewController()
     subject.prepareForSegue(model: Model(value: "First"))
     subject.viewDidLoad()
-    XCTAssertEqual(subject.labelSiphon.object?.text, "First")
+    XCTAssertEqual(subject.labelFiller.object?.text, "First")
     subject.prepareForSegue(model: Model(value: "Second"))
-    XCTAssertEqual(subject.labelSiphon.object?.text, "Second")
+    XCTAssertEqual(subject.labelFiller.object?.text, "Second")
   }
   
   
-  func testEarlyInitializtion() {
+  func testFillableEarlyInitializtion() {
     let subject = FakeViewController()
     subject.viewDidLoad()
     subject.prepareForSegue(model: Model(value: "First"))
-    XCTAssertEqual(subject.labelSiphon.object?.text, "First")
+    XCTAssertEqual(subject.labelFiller.object?.text, "First")
     subject.prepareForSegue(model: Model(value: "Second"))
-    XCTAssertEqual(subject.labelSiphon.object?.text, "Second")
+    XCTAssertEqual(subject.labelFiller.object?.text, "Second")
   }
-
 }
