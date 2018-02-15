@@ -9,7 +9,7 @@ class BindIfReadyTests: XCTestCase {
   }
   
   
-  class Label: FillableObject {
+  class Label: Fillable {
     var text: String?
     func fill(with model: Model) {
       text = model.value
