@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		733A8C5C205F0FE30028AF3C /* ProperFraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733A8C5B205F0FE30028AF3C /* ProperFraction.swift */; };
+		733A8C5F205F11420028AF3C /* ProperFractionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733A8C5D205F11370028AF3C /* ProperFractionTests.swift */; };
 		733BEE8F203635DF00358AAC /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733BEE8E203635DF00358AAC /* Memo.swift */; };
 		733BEE912036362D00358AAC /* MaybeMemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733BEE902036362D00358AAC /* MaybeMemo.swift */; };
 		733BEE942036373F00358AAC /* MaybeMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733BEE922036373A00358AAC /* MaybeMemoTests.swift */; };
@@ -52,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		733A8C5B205F0FE30028AF3C /* ProperFraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProperFraction.swift; sourceTree = "<group>"; };
+		733A8C5D205F11370028AF3C /* ProperFractionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProperFractionTests.swift; sourceTree = "<group>"; };
 		733BEE8E203635DF00358AAC /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		733BEE902036362D00358AAC /* MaybeMemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaybeMemo.swift; sourceTree = "<group>"; };
 		733BEE922036373A00358AAC /* MaybeMemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaybeMemoTests.swift; sourceTree = "<group>"; };
@@ -143,6 +147,7 @@
 				73B8D38D2016871B008AED0D /* Maybes.swift */,
 				733BEE8E203635DF00358AAC /* Memo.swift */,
 				733BEE902036362D00358AAC /* MaybeMemo.swift */,
+				733A8C5B205F0FE30028AF3C /* ProperFraction.swift */,
 			);
 			name = Sources;
 			path = ../Sources;
@@ -166,6 +171,7 @@
 				733BEE922036373A00358AAC /* MaybeMemoTests.swift */,
 				733BEE9520363AAB00358AAC /* MemoTests.swift */,
 				73B2C64C2043689A0064EEB2 /* FlowTests.swift */,
+				733A8C5D205F11370028AF3C /* ProperFractionTests.swift */,
 			);
 			name = Tests;
 			path = ../Tests;
@@ -294,6 +300,7 @@
 				7358FC9D1FD4779200FC42B3 /* Numeric+Clamp.swift in Sources */,
 				733BEE8F203635DF00358AAC /* Memo.swift in Sources */,
 				73CB73221F2B860F00C34A29 /* CartesianProductSequence.swift in Sources */,
+				733A8C5C205F0FE30028AF3C /* ProperFraction.swift in Sources */,
 				C15BF9F91EA00EE600CE09B6 /* Dictionary+Merge.swift in Sources */,
 				C15BFA151EA02EE600CE09B6 /* Negatives.swift in Sources */,
 				C15BFA091EA0111C00CE09B6 /* ObviousNot.swift in Sources */,
@@ -310,6 +317,7 @@
 				C15BFA0D1EA0117F00CE09B6 /* StringTrimmingTests.swift in Sources */,
 				733BEE942036373F00358AAC /* MaybeMemoTests.swift in Sources */,
 				73E1C05C1FF964C7006CFF78 /* OscillatorTests.swift in Sources */,
+				733A8C5F205F11420028AF3C /* ProperFractionTests.swift in Sources */,
 				73B2C64E204368A90064EEB2 /* FlowTests.swift in Sources */,
 				73B8D391201687A6008AED0D /* MaybesTests.swift in Sources */,
 				73B8D38920164514008AED0D /* BindIfReadyTests.swift in Sources */,
