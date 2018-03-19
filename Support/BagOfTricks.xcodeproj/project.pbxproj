@@ -13,6 +13,8 @@
 		733BEE912036362D00358AAC /* MaybeMemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733BEE902036362D00358AAC /* MaybeMemo.swift */; };
 		733BEE942036373F00358AAC /* MaybeMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733BEE922036373A00358AAC /* MaybeMemoTests.swift */; };
 		733BEE9820363AB400358AAC /* MemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733BEE9520363AAB00358AAC /* MemoTests.swift */; };
+		733F3DE8206012860077C9C4 /* DelegatedCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733F3DE7206012860077C9C4 /* DelegatedCall.swift */; };
+		733F3DEB206017200077C9C4 /* DelegatedCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733F3DE92060170F0077C9C4 /* DelegatedCallTests.swift */; };
 		7358FC9D1FD4779200FC42B3 /* Numeric+Clamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7358FC9C1FD4779200FC42B3 /* Numeric+Clamp.swift */; };
 		7358FCA01FD477CB00FC42B3 /* ClampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7358FC9E1FD477A800FC42B3 /* ClampTests.swift */; };
 		7358FCA21FD49B3A00FC42B3 /* Debounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7358FCA11FD49B3A00FC42B3 /* Debounce.swift */; };
@@ -60,6 +62,8 @@
 		733BEE902036362D00358AAC /* MaybeMemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaybeMemo.swift; sourceTree = "<group>"; };
 		733BEE922036373A00358AAC /* MaybeMemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaybeMemoTests.swift; sourceTree = "<group>"; };
 		733BEE9520363AAB00358AAC /* MemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoTests.swift; sourceTree = "<group>"; };
+		733F3DE7206012860077C9C4 /* DelegatedCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatedCall.swift; sourceTree = "<group>"; };
+		733F3DE92060170F0077C9C4 /* DelegatedCallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatedCallTests.swift; sourceTree = "<group>"; };
 		7358FC9C1FD4779200FC42B3 /* Numeric+Clamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Numeric+Clamp.swift"; sourceTree = "<group>"; };
 		7358FC9E1FD477A800FC42B3 /* ClampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClampTests.swift; sourceTree = "<group>"; };
 		7358FCA11FD49B3A00FC42B3 /* Debounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debounce.swift; sourceTree = "<group>"; };
@@ -148,6 +152,7 @@
 				733BEE8E203635DF00358AAC /* Memo.swift */,
 				733BEE902036362D00358AAC /* MaybeMemo.swift */,
 				733A8C5B205F0FE30028AF3C /* ProperFraction.swift */,
+				733F3DE7206012860077C9C4 /* DelegatedCall.swift */,
 			);
 			name = Sources;
 			path = ../Sources;
@@ -172,6 +177,7 @@
 				733BEE9520363AAB00358AAC /* MemoTests.swift */,
 				73B2C64C2043689A0064EEB2 /* FlowTests.swift */,
 				733A8C5D205F11370028AF3C /* ProperFractionTests.swift */,
+				733F3DE92060170F0077C9C4 /* DelegatedCallTests.swift */,
 			);
 			name = Tests;
 			path = ../Tests;
@@ -303,6 +309,7 @@
 				733A8C5C205F0FE30028AF3C /* ProperFraction.swift in Sources */,
 				C15BF9F91EA00EE600CE09B6 /* Dictionary+Merge.swift in Sources */,
 				C15BFA151EA02EE600CE09B6 /* Negatives.swift in Sources */,
+				733F3DE8206012860077C9C4 /* DelegatedCall.swift in Sources */,
 				C15BFA091EA0111C00CE09B6 /* ObviousNot.swift in Sources */,
 				73DC9A621F2ABE7900A8C29B /* Stopwatch.swift in Sources */,
 			);
@@ -322,6 +329,7 @@
 				73B8D391201687A6008AED0D /* MaybesTests.swift in Sources */,
 				73B8D38920164514008AED0D /* BindIfReadyTests.swift in Sources */,
 				C15BFA171EA0308C00CE09B6 /* NegativesTests.swift in Sources */,
+				733F3DEB206017200077C9C4 /* DelegatedCallTests.swift in Sources */,
 				7358FCA51FD4C04400FC42B3 /* DebounceTests.swift in Sources */,
 				73CB73281F2B874700C34A29 /* CartesianProductSequenceTests.swift in Sources */,
 				C15BFA051EA010D700CE09B6 /* StringInsensitiveCompareTests.swift in Sources */,
