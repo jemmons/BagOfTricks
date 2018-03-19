@@ -23,7 +23,7 @@ public struct ProperFraction {
   
   
   public init(clipping fraction: Double) {
-    value = fraction.clamp(to: 0...1)
+    try! self.init(fraction.clamp(to: 0...1))
   }
 }
 
