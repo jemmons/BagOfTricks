@@ -15,6 +15,8 @@
 		733BEE9820363AB400358AAC /* MemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733BEE9520363AAB00358AAC /* MemoTests.swift */; };
 		733F3DE8206012860077C9C4 /* DelegatedCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733F3DE7206012860077C9C4 /* DelegatedCall.swift */; };
 		733F3DEB206017200077C9C4 /* DelegatedCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733F3DE92060170F0077C9C4 /* DelegatedCallTests.swift */; };
+		733F3DF12061A9690077C9C4 /* Lockbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733F3DF02061A9690077C9C4 /* Lockbox.swift */; };
+		733F3DF42061A9A30077C9C4 /* LockboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733F3DF22061A9A00077C9C4 /* LockboxTests.swift */; };
 		7358FC9D1FD4779200FC42B3 /* Numeric+Clamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7358FC9C1FD4779200FC42B3 /* Numeric+Clamp.swift */; };
 		7358FCA01FD477CB00FC42B3 /* ClampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7358FC9E1FD477A800FC42B3 /* ClampTests.swift */; };
 		7358FCA21FD49B3A00FC42B3 /* Debounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7358FCA11FD49B3A00FC42B3 /* Debounce.swift */; };
@@ -64,6 +66,8 @@
 		733BEE9520363AAB00358AAC /* MemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoTests.swift; sourceTree = "<group>"; };
 		733F3DE7206012860077C9C4 /* DelegatedCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatedCall.swift; sourceTree = "<group>"; };
 		733F3DE92060170F0077C9C4 /* DelegatedCallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatedCallTests.swift; sourceTree = "<group>"; };
+		733F3DF02061A9690077C9C4 /* Lockbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lockbox.swift; sourceTree = "<group>"; };
+		733F3DF22061A9A00077C9C4 /* LockboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockboxTests.swift; sourceTree = "<group>"; };
 		7358FC9C1FD4779200FC42B3 /* Numeric+Clamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Numeric+Clamp.swift"; sourceTree = "<group>"; };
 		7358FC9E1FD477A800FC42B3 /* ClampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClampTests.swift; sourceTree = "<group>"; };
 		7358FCA11FD49B3A00FC42B3 /* Debounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debounce.swift; sourceTree = "<group>"; };
@@ -153,6 +157,7 @@
 				733BEE902036362D00358AAC /* MaybeMemo.swift */,
 				733A8C5B205F0FE30028AF3C /* ProperFraction.swift */,
 				733F3DE7206012860077C9C4 /* DelegatedCall.swift */,
+				733F3DF02061A9690077C9C4 /* Lockbox.swift */,
 			);
 			name = Sources;
 			path = ../Sources;
@@ -178,6 +183,7 @@
 				73B2C64C2043689A0064EEB2 /* FlowTests.swift */,
 				733A8C5D205F11370028AF3C /* ProperFractionTests.swift */,
 				733F3DE92060170F0077C9C4 /* DelegatedCallTests.swift */,
+				733F3DF22061A9A00077C9C4 /* LockboxTests.swift */,
 			);
 			name = Tests;
 			path = ../Tests;
@@ -300,6 +306,7 @@
 				7358FCA21FD49B3A00FC42B3 /* Debounce.swift in Sources */,
 				73B8D38620164464008AED0D /* Fillable.swift in Sources */,
 				73E1C0591FF95BAC006CFF78 /* Oscillator.swift in Sources */,
+				733F3DF12061A9690077C9C4 /* Lockbox.swift in Sources */,
 				733BEE912036362D00358AAC /* MaybeMemo.swift in Sources */,
 				73B8D38E2016871B008AED0D /* Maybes.swift in Sources */,
 				C15BFA071EA0110800CE09B6 /* String+Trimming.swift in Sources */,
@@ -321,6 +328,7 @@
 			files = (
 				C15BF9FB1EA00F0300CE09B6 /* DictionaryMergeTests.swift in Sources */,
 				7358FCA01FD477CB00FC42B3 /* ClampTests.swift in Sources */,
+				733F3DF42061A9A30077C9C4 /* LockboxTests.swift in Sources */,
 				C15BFA0D1EA0117F00CE09B6 /* StringTrimmingTests.swift in Sources */,
 				733BEE942036373F00358AAC /* MaybeMemoTests.swift in Sources */,
 				73E1C05C1FF964C7006CFF78 /* OscillatorTests.swift in Sources */,
