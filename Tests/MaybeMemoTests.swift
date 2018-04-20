@@ -20,7 +20,7 @@ class MaybeMemoTests: XCTestCase {
   
   
   func testNilFactory() {
-    var memo = MaybeMemo<Int> { nil }
+    let memo = MaybeMemo<Int> { nil }
     XCTAssertNil(memo.value())
     XCTAssertNil(memo.value())
     XCTAssertNil(memo.value())
@@ -29,7 +29,7 @@ class MaybeMemoTests: XCTestCase {
   
   func testInvalidation() {
     var state = 42
-    var memo = MaybeMemo<Int> { state }
+    let memo = MaybeMemo<Int> { state }
     
     XCTAssertEqual(42, memo.value())
     XCTAssertEqual(42, memo.value())
@@ -44,7 +44,7 @@ class MaybeMemoTests: XCTestCase {
   
   func testMaybeFactoryDoesNotCacheNil() {
     var state = true
-    var memo = MaybeMemo<Int> { state ? 42 : nil }
+    let memo = MaybeMemo<Int> { state ? 42 : nil }
     
     XCTAssertEqual(42, memo.value())
     XCTAssertEqual(42, memo.value())

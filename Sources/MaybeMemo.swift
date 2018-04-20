@@ -2,7 +2,7 @@ import Foundation
 
 
 
-public struct MaybeMemo<T> {
+public class MaybeMemo<T> {
   private var state: T? = nil
   private let factory: ()->T?
   
@@ -13,7 +13,7 @@ public struct MaybeMemo<T> {
 
 
 public extension MaybeMemo {
-  mutating func value() -> T? {
+  func value() -> T? {
     switch state {
     case let v?:
       return v
@@ -25,7 +25,7 @@ public extension MaybeMemo {
   }
   
   
-  mutating func invalidate() {
+  func invalidate() {
     state = nil
   }
 }

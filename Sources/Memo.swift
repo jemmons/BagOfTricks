@@ -2,7 +2,7 @@ import Foundation
 
 
 
-public struct Memo<T> {
+public class Memo<T> {
   private var maybe: MaybeMemo<T>
   
   public init(factory: @escaping ()->T) {
@@ -13,7 +13,7 @@ public struct Memo<T> {
 
 
 public extension Memo {
-  mutating func value() -> T {
+  func value() -> T {
     guard let value = maybe.value() else {
       fatalError("Memo's non-optional factory somehow produced an optional.")
     }
@@ -21,7 +21,7 @@ public extension Memo {
   }
   
   
-  mutating func invalidate() {
+  func invalidate() {
     maybe.invalidate()
   }
 }

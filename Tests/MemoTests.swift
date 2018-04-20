@@ -21,7 +21,7 @@ class MemoTests: XCTestCase {
   
   func testInvalidation() {
     var state = 42
-    var memo = Memo<Int> { state }
+    let memo = Memo<Int> { state }
 
     XCTAssertEqual(42, memo.value())
     XCTAssertEqual(42, memo.value())
