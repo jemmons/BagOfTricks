@@ -71,6 +71,9 @@
 		73DC9A621F2ABE7900A8C29B /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DC9A611F2ABE7900A8C29B /* Stopwatch.swift */; };
 		73E1C0591FF95BAC006CFF78 /* Oscillator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E1C0581FF95BAC006CFF78 /* Oscillator.swift */; };
 		73E1C05C1FF964C7006CFF78 /* OscillatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E1C05A1FF964C4006CFF78 /* OscillatorTests.swift */; };
+		C112316020FFF106007EF0F6 /* URLSchemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C112315E20FFF0E2007EF0F6 /* URLSchemeTests.swift */; };
+		C112316120FFF107007EF0F6 /* URLSchemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C112315E20FFF0E2007EF0F6 /* URLSchemeTests.swift */; };
+		C11231642100DDD7007EF0F6 /* URL+Scheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11231632100DDD7007EF0F6 /* URL+Scheme.swift */; };
 		C15BF9E81EA00E7000CE09B6 /* BagOfTricks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15BF9DE1EA00E7000CE09B6 /* BagOfTricks.framework */; };
 		C15BF9F91EA00EE600CE09B6 /* Dictionary+Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15BF9F81EA00EE600CE09B6 /* Dictionary+Merge.swift */; };
 		C15BF9FB1EA00F0300CE09B6 /* DictionaryMergeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15BF9FA1EA00F0300CE09B6 /* DictionaryMergeTests.swift */; };
@@ -131,6 +134,8 @@
 		73DC9A611F2ABE7900A8C29B /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
 		73E1C0581FF95BAC006CFF78 /* Oscillator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oscillator.swift; sourceTree = "<group>"; };
 		73E1C05A1FF964C4006CFF78 /* OscillatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscillatorTests.swift; sourceTree = "<group>"; };
+		C112315E20FFF0E2007EF0F6 /* URLSchemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSchemeTests.swift; sourceTree = "<group>"; };
+		C11231632100DDD7007EF0F6 /* URL+Scheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Scheme.swift"; sourceTree = "<group>"; };
 		C15BF9DE1EA00E7000CE09B6 /* BagOfTricks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BagOfTricks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C15BF9E71EA00E7000CE09B6 /* BagOfTricksTests_iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BagOfTricksTests_iOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C15BF9F81EA00EE600CE09B6 /* Dictionary+Merge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Merge.swift"; sourceTree = "<group>"; };
@@ -222,6 +227,7 @@
 				733A8C5B205F0FE30028AF3C /* ProperFraction.swift */,
 				733F3DE7206012860077C9C4 /* DelegatedCall.swift */,
 				733F3DF02061A9690077C9C4 /* Lockbox.swift */,
+				C11231632100DDD7007EF0F6 /* URL+Scheme.swift */,
 			);
 			name = Sources;
 			path = ../Sources;
@@ -248,6 +254,7 @@
 				733A8C5D205F11370028AF3C /* ProperFractionTests.swift */,
 				733F3DE92060170F0077C9C4 /* DelegatedCallTests.swift */,
 				733F3DF22061A9A00077C9C4 /* LockboxTests.swift */,
+				C112315E20FFF0E2007EF0F6 /* URLSchemeTests.swift */,
 			);
 			name = Tests;
 			path = ../Tests;
@@ -468,6 +475,7 @@
 				7368DDB620952E9F00DB0A45 /* ProperFractionTests.swift in Sources */,
 				7368DDB520952E9F00DB0A45 /* FlowTests.swift in Sources */,
 				7368DDB220952E9F00DB0A45 /* MaybesTests.swift in Sources */,
+				C112316120FFF107007EF0F6 /* URLSchemeTests.swift in Sources */,
 				7368DDB020952E9F00DB0A45 /* OscillatorTests.swift in Sources */,
 				7368DDAB20952E9F00DB0A45 /* NegativesTests.swift in Sources */,
 				7368DDB720952E9F00DB0A45 /* DelegatedCallTests.swift in Sources */,
@@ -490,6 +498,7 @@
 				7358FCA21FD49B3A00FC42B3 /* Debounce.swift in Sources */,
 				73B8D38620164464008AED0D /* Fillable.swift in Sources */,
 				73E1C0591FF95BAC006CFF78 /* Oscillator.swift in Sources */,
+				C11231642100DDD7007EF0F6 /* URL+Scheme.swift in Sources */,
 				733F3DF12061A9690077C9C4 /* Lockbox.swift in Sources */,
 				733BEE912036362D00358AAC /* MaybeMemo.swift in Sources */,
 				73B8D38E2016871B008AED0D /* Maybes.swift in Sources */,
@@ -519,6 +528,7 @@
 				733A8C5F205F11420028AF3C /* ProperFractionTests.swift in Sources */,
 				73B2C64E204368A90064EEB2 /* FlowTests.swift in Sources */,
 				73B8D391201687A6008AED0D /* MaybesTests.swift in Sources */,
+				C112316020FFF106007EF0F6 /* URLSchemeTests.swift in Sources */,
 				73B8D38920164514008AED0D /* BindIfReadyTests.swift in Sources */,
 				C15BFA171EA0308C00CE09B6 /* NegativesTests.swift in Sources */,
 				733F3DEB206017200077C9C4 /* DelegatedCallTests.swift in Sources */,

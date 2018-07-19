@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7368DD8F20952A4A00DB0A45"
-               BuildableName = "BagOfTricks_macOS.framework"
+               BuildableName = "BagOfTricks.framework"
                BlueprintName = "BagOfTricks_macOS"
                ReferencedContainer = "container:BagOfTricks.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7368DD8F20952A4A00DB0A45"
-            BuildableName = "BagOfTricks_macOS.framework"
+            BuildableName = "BagOfTricks.framework"
             BlueprintName = "BagOfTricks_macOS"
             ReferencedContainer = "container:BagOfTricks.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7368DD8F20952A4A00DB0A45"
-            BuildableName = "BagOfTricks_macOS.framework"
+            BuildableName = "BagOfTricks.framework"
             BlueprintName = "BagOfTricks_macOS"
             ReferencedContainer = "container:BagOfTricks.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7368DD8F20952A4A00DB0A45"
-            BuildableName = "BagOfTricks_macOS.framework"
+            BuildableName = "BagOfTricks.framework"
             BlueprintName = "BagOfTricks_macOS"
             ReferencedContainer = "container:BagOfTricks.xcodeproj">
          </BuildableReference>
