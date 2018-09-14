@@ -86,6 +86,11 @@
 		C15BFA0D1EA0117F00CE09B6 /* StringTrimmingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15BFA0C1EA0117F00CE09B6 /* StringTrimmingTests.swift */; };
 		C15BFA151EA02EE600CE09B6 /* Negatives.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15BFA141EA02EE600CE09B6 /* Negatives.swift */; };
 		C15BFA171EA0308C00CE09B6 /* NegativesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15BFA161EA0308C00CE09B6 /* NegativesTests.swift */; };
+		C1B9A899214C349000055D9A /* Optional+Throwing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B9A898214C349000055D9A /* Optional+Throwing.swift */; };
+		C1B9A89C214C34C000055D9A /* OptionalThrowingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B9A89A214C34AC00055D9A /* OptionalThrowingTests.swift */; };
+		C1B9A89D214C34C100055D9A /* OptionalThrowingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B9A89A214C34AC00055D9A /* OptionalThrowingTests.swift */; };
+		C1B9A89E214C34C700055D9A /* Optional+Throwing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B9A898214C349000055D9A /* Optional+Throwing.swift */; };
+		C1B9A89F214C34D500055D9A /* URL+Scheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11231632100DDD7007EF0F6 /* URL+Scheme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -149,6 +154,8 @@
 		C15BFA0C1EA0117F00CE09B6 /* StringTrimmingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTrimmingTests.swift; sourceTree = "<group>"; };
 		C15BFA141EA02EE600CE09B6 /* Negatives.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Negatives.swift; sourceTree = "<group>"; };
 		C15BFA161EA0308C00CE09B6 /* NegativesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NegativesTests.swift; sourceTree = "<group>"; };
+		C1B9A898214C349000055D9A /* Optional+Throwing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Throwing.swift"; sourceTree = "<group>"; };
+		C1B9A89A214C34AC00055D9A /* OptionalThrowingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalThrowingTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +219,7 @@
 				C15BFA001EA0107C00CE09B6 /* Flow.swift */,
 				C15BFA021EA010B800CE09B6 /* String+InsensitiveCompare.swift */,
 				C15BFA061EA0110800CE09B6 /* String+Trimming.swift */,
+				C1B9A898214C349000055D9A /* Optional+Throwing.swift */,
 				C15BFA081EA0111C00CE09B6 /* ObviousNot.swift */,
 				C15BFA141EA02EE600CE09B6 /* Negatives.swift */,
 				7358FCA11FD49B3A00FC42B3 /* Debounce.swift */,
@@ -255,6 +263,7 @@
 				733F3DE92060170F0077C9C4 /* DelegatedCallTests.swift */,
 				733F3DF22061A9A00077C9C4 /* LockboxTests.swift */,
 				C112315E20FFF0E2007EF0F6 /* URLSchemeTests.swift */,
+				C1B9A89A214C34AC00055D9A /* OptionalThrowingTests.swift */,
 			);
 			name = Tests;
 			path = ../Tests;
@@ -447,8 +456,10 @@
 				7368DDBE2095326400DB0A45 /* Negatives.swift in Sources */,
 				7368DDC32095326400DB0A45 /* Oscillator.swift in Sources */,
 				7368DDCB2095326400DB0A45 /* Lockbox.swift in Sources */,
+				C1B9A89F214C34D500055D9A /* URL+Scheme.swift in Sources */,
 				7368DDC82095326400DB0A45 /* MaybeMemo.swift in Sources */,
 				7368DDC62095326400DB0A45 /* Maybes.swift in Sources */,
+				C1B9A89E214C34C700055D9A /* Optional+Throwing.swift in Sources */,
 				7368DDC22095326400DB0A45 /* Numeric+Clamp.swift in Sources */,
 				7368DDBC2095326400DB0A45 /* String+Trimming.swift in Sources */,
 				7368DDC72095326400DB0A45 /* Memo.swift in Sources */,
@@ -479,6 +490,7 @@
 				7368DDB020952E9F00DB0A45 /* OscillatorTests.swift in Sources */,
 				7368DDAB20952E9F00DB0A45 /* NegativesTests.swift in Sources */,
 				7368DDB720952E9F00DB0A45 /* DelegatedCallTests.swift in Sources */,
+				C1B9A89D214C34C100055D9A /* OptionalThrowingTests.swift in Sources */,
 				7368DDA720952E9F00DB0A45 /* DictionaryMergeTests.swift in Sources */,
 				7368DDAC20952E9F00DB0A45 /* DebounceTests.swift in Sources */,
 				7368DDAE20952E9F00DB0A45 /* CartesianProductSequenceTests.swift in Sources */,
@@ -498,6 +510,7 @@
 				7358FCA21FD49B3A00FC42B3 /* Debounce.swift in Sources */,
 				73B8D38620164464008AED0D /* Fillable.swift in Sources */,
 				73E1C0591FF95BAC006CFF78 /* Oscillator.swift in Sources */,
+				C1B9A899214C349000055D9A /* Optional+Throwing.swift in Sources */,
 				C11231642100DDD7007EF0F6 /* URL+Scheme.swift in Sources */,
 				733F3DF12061A9690077C9C4 /* Lockbox.swift in Sources */,
 				733BEE912036362D00358AAC /* MaybeMemo.swift in Sources */,
@@ -532,6 +545,7 @@
 				73B8D38920164514008AED0D /* BindIfReadyTests.swift in Sources */,
 				C15BFA171EA0308C00CE09B6 /* NegativesTests.swift in Sources */,
 				733F3DEB206017200077C9C4 /* DelegatedCallTests.swift in Sources */,
+				C1B9A89C214C34C000055D9A /* OptionalThrowingTests.swift in Sources */,
 				7358FCA51FD4C04400FC42B3 /* DebounceTests.swift in Sources */,
 				73CB73281F2B874700C34A29 /* CartesianProductSequenceTests.swift in Sources */,
 				C15BFA051EA010D700CE09B6 /* StringInsensitiveCompareTests.swift in Sources */,
