@@ -245,7 +245,7 @@
 				C11231632100DDD7007EF0F6 /* URL+Scheme.swift */,
 			);
 			name = Sources;
-			path = ../Sources;
+			path = ../Sources/BagOfTricks;
 			sourceTree = "<group>";
 		};
 		C15BF9EB1EA00E7000CE09B6 /* Tests */ = {
@@ -274,7 +274,7 @@
 				C1A3B4DA222DE21500F37A76 /* OptionalAssumptionsTests.swift */,
 			);
 			name = Tests;
-			path = ../Tests;
+			path = ../Tests/BagOfTricksTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -406,6 +406,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = C15BF9D41EA00E7000CE09B6;
