@@ -1,14 +1,14 @@
 import Foundation
 
 public extension URL {
-  public struct Scheme {
-    enum Format: LocalizedError {
+  struct Scheme {
+    public enum Format: LocalizedError {
       case requiredLength
       case invalidFirstCharacter
       case invalidCharacters
       
       
-      var errorDescription: String? {
+      public var errorDescription: String? {
         switch self {
         case .requiredLength:
           return "A scheme must contain at least one character."
@@ -29,7 +29,7 @@ public extension URL {
   }
   
   
-  public func replacing(scheme: Scheme) -> URL {
+  func replacing(scheme: Scheme) -> URL {
     guard var comps = URLComponents(url: self, resolvingAgainstBaseURL: false) else {
       fatalError("URL “\(self.absoluteString)” composed of invalid components.")
     }

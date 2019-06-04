@@ -61,6 +61,48 @@ class URLSchemeTests: XCTestCase {
   }
   
   
+  func testCatchLength() {
+    let expectedThrow = expectation(description: "Waiting for requiredLength error")
+    do {
+      _ = try URL.Scheme("")
+    } catch URL.Scheme.Format.requiredLength {
+      expectedThrow.fulfill()
+    } catch {
+      XCTFail()
+    }
+    
+    wait(for: [expectedThrow], timeout: 0)
+  }
+  
+  
+  func testCatchFirstCharacter() {
+    let expectedThrow = expectation(description: "Waiting for invalidFirstCharacter error")
+    do {
+      _ = try URL.Scheme("1foo")
+    } catch URL.Scheme.Format.invalidFirstCharacter {
+      expectedThrow.fulfill()
+    } catch {
+      XCTFail()
+    }
+    
+    wait(for: [expectedThrow], timeout: 0)
+  }
+
+  
+  func testCatchInvalidCharacter() {
+    let expectedThrow = expectation(description: "Waiting for invalidCharacters error")
+    do {
+      _ = try URL.Scheme("fo!o")
+    } catch URL.Scheme.Format.invalidCharacters {
+      expectedThrow.fulfill()
+    } catch {
+      XCTFail()
+    }
+    
+    wait(for: [expectedThrow], timeout: 0)
+  }
+
+  
   func testReplacingScheme() {
     let subject = URL(string: "http://example.com")!
     let newScheme = try! URL.Scheme("test")
