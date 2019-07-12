@@ -1,6 +1,7 @@
 import Foundation
 
 public extension URL {
+  @available(*, deprecated, message: "This functionality has been moved to `MyNameIsURL` (https://github.com/jemmons/MyNameIsURL)")
   struct Scheme {
     public enum Format: LocalizedError {
       case requiredLength
@@ -29,6 +30,7 @@ public extension URL {
   }
   
   
+  @available(*, deprecated, message: "This functionality has been moved to `MyNameIsURL` (https://github.com/jemmons/MyNameIsURL)")
   func replacing(scheme: Scheme) -> URL {
     guard var comps = URLComponents(url: self, resolvingAgainstBaseURL: false) else {
       fatalError("URL “\(self.absoluteString)” composed of invalid components.")
