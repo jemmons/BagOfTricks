@@ -42,7 +42,7 @@
 		7368DDB820952E9F00DB0A45 /* LockboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733F3DF22061A9A00077C9C4 /* LockboxTests.swift */; };
 		7368DDB92095326400DB0A45 /* Dictionary+Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15BF9F81EA00EE600CE09B6 /* Dictionary+Merge.swift */; };
 		7368DDBA2095326400DB0A45 /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15BFA001EA0107C00CE09B6 /* Flow.swift */; };
-		7368DDBB2095326400DB0A45 /* String+InsensitiveCompare.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15BFA021EA010B800CE09B6 /* String+InsensitiveCompare.swift */; };
+		7368DDBB2095326400DB0A45 /* InsensitiveCompareOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15BFA021EA010B800CE09B6 /* InsensitiveCompareOperator.swift */; };
 		7368DDBC2095326400DB0A45 /* String+Trimming.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15BFA061EA0110800CE09B6 /* String+Trimming.swift */; };
 		7368DDBD2095326400DB0A45 /* ObviousNot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15BFA081EA0111C00CE09B6 /* ObviousNot.swift */; };
 		7368DDBE2095326400DB0A45 /* Negatives.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15BFA141EA02EE600CE09B6 /* Negatives.swift */; };
@@ -59,6 +59,8 @@
 		7368DDC92095326400DB0A45 /* ProperFraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733A8C5B205F0FE30028AF3C /* ProperFraction.swift */; };
 		7368DDCA2095326400DB0A45 /* DelegatedCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733F3DE7206012860077C9C4 /* DelegatedCall.swift */; };
 		7368DDCB2095326400DB0A45 /* Lockbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733F3DF02061A9690077C9C4 /* Lockbox.swift */; };
+		736BCBBB22ECE1B4000D2C83 /* IdentityFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F3574B22ECD84600AEDF3F /* IdentityFunction.swift */; };
+		736BCBBC22ECE1B6000D2C83 /* IdentityFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F3574B22ECD84600AEDF3F /* IdentityFunction.swift */; };
 		73B2C64E204368A90064EEB2 /* FlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B2C64C2043689A0064EEB2 /* FlowTests.swift */; };
 		73B8D38420164338008AED0D /* BindIfReady.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B8D38320164338008AED0D /* BindIfReady.swift */; };
 		73B8D38620164464008AED0D /* Fillable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B8D38520164464008AED0D /* Fillable.swift */; };
@@ -78,7 +80,7 @@
 		C15BF9F91EA00EE600CE09B6 /* Dictionary+Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15BF9F81EA00EE600CE09B6 /* Dictionary+Merge.swift */; };
 		C15BF9FB1EA00F0300CE09B6 /* DictionaryMergeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15BF9FA1EA00F0300CE09B6 /* DictionaryMergeTests.swift */; };
 		C15BFA011EA0107C00CE09B6 /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15BFA001EA0107C00CE09B6 /* Flow.swift */; };
-		C15BFA031EA010B800CE09B6 /* String+InsensitiveCompare.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15BFA021EA010B800CE09B6 /* String+InsensitiveCompare.swift */; };
+		C15BFA031EA010B800CE09B6 /* InsensitiveCompareOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15BFA021EA010B800CE09B6 /* InsensitiveCompareOperator.swift */; };
 		C15BFA051EA010D700CE09B6 /* StringInsensitiveCompareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15BFA041EA010D700CE09B6 /* StringInsensitiveCompareTests.swift */; };
 		C15BFA071EA0110800CE09B6 /* String+Trimming.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15BFA061EA0110800CE09B6 /* String+Trimming.swift */; };
 		C15BFA091EA0111C00CE09B6 /* ObviousNot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15BFA081EA0111C00CE09B6 /* ObviousNot.swift */; };
@@ -143,6 +145,7 @@
 		73DC9A611F2ABE7900A8C29B /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
 		73E1C0581FF95BAC006CFF78 /* Oscillator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oscillator.swift; sourceTree = "<group>"; };
 		73E1C05A1FF964C4006CFF78 /* OscillatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscillatorTests.swift; sourceTree = "<group>"; };
+		73F3574B22ECD84600AEDF3F /* IdentityFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityFunction.swift; sourceTree = "<group>"; };
 		C112315E20FFF0E2007EF0F6 /* URLSchemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSchemeTests.swift; sourceTree = "<group>"; };
 		C11231632100DDD7007EF0F6 /* URL+Scheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Scheme.swift"; sourceTree = "<group>"; };
 		C15BF9DE1EA00E7000CE09B6 /* BagOfTricks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BagOfTricks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,7 +153,7 @@
 		C15BF9F81EA00EE600CE09B6 /* Dictionary+Merge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Merge.swift"; sourceTree = "<group>"; };
 		C15BF9FA1EA00F0300CE09B6 /* DictionaryMergeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryMergeTests.swift; sourceTree = "<group>"; };
 		C15BFA001EA0107C00CE09B6 /* Flow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flow.swift; sourceTree = "<group>"; };
-		C15BFA021EA010B800CE09B6 /* String+InsensitiveCompare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+InsensitiveCompare.swift"; sourceTree = "<group>"; };
+		C15BFA021EA010B800CE09B6 /* InsensitiveCompareOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsensitiveCompareOperator.swift; sourceTree = "<group>"; };
 		C15BFA041EA010D700CE09B6 /* StringInsensitiveCompareTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringInsensitiveCompareTests.swift; sourceTree = "<group>"; };
 		C15BFA061EA0110800CE09B6 /* String+Trimming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Trimming.swift"; sourceTree = "<group>"; };
 		C15BFA081EA0111C00CE09B6 /* ObviousNot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObviousNot.swift; sourceTree = "<group>"; };
@@ -198,6 +201,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73F3574A22ECD83C00AEDF3F /* Free Functions */ = {
+			isa = PBXGroup;
+			children = (
+				C15BFA001EA0107C00CE09B6 /* Flow.swift */,
+				73F3574B22ECD84600AEDF3F /* IdentityFunction.swift */,
+				73DC9A611F2ABE7900A8C29B /* Stopwatch.swift */,
+			);
+			path = "Free Functions";
+			sourceTree = "<group>";
+		};
+		73F3574C22ECD90200AEDF3F /* Sequences */ = {
+			isa = PBXGroup;
+			children = (
+				73CB73211F2B860F00C34A29 /* CartesianProductSequence.swift */,
+				73E1C0581FF95BAC006CFF78 /* Oscillator.swift */,
+			);
+			path = Sequences;
+			sourceTree = "<group>";
+		};
+		73F3574D22ECDF4800AEDF3F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C15BFA061EA0110800CE09B6 /* String+Trimming.swift */,
+				C15BF9F81EA00EE600CE09B6 /* Dictionary+Merge.swift */,
+				C1B9A898214C349000055D9A /* Optional+Throwing.swift */,
+				C1A3B4D7222DE15100F37A76 /* Optional+Assumptions.swift */,
+				C15BFA141EA02EE600CE09B6 /* Negatives.swift */,
+				7358FC9C1FD4779200FC42B3 /* Numeric+Clamp.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		73F3574E22ECDF6D00AEDF3F /* Operators */ = {
+			isa = PBXGroup;
+			children = (
+				C15BFA021EA010B800CE09B6 /* InsensitiveCompareOperator.swift */,
+				C15BFA081EA0111C00CE09B6 /* ObviousNot.swift */,
+			);
+			path = Operators;
+			sourceTree = "<group>";
+		};
+		73F3574F22ECDFE000AEDF3F /* Deprecated */ = {
+			isa = PBXGroup;
+			children = (
+				7358FCA11FD49B3A00FC42B3 /* Debounce.swift */,
+				C11231632100DDD7007EF0F6 /* URL+Scheme.swift */,
+				73B8D38D2016871B008AED0D /* Maybes.swift */,
+				733BEE8E203635DF00358AAC /* Memo.swift */,
+				733BEE902036362D00358AAC /* MaybeMemo.swift */,
+			);
+			path = Deprecated;
+			sourceTree = "<group>";
+		};
+		73F3575022ECE0F000AEDF3F /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				73B8D38520164464008AED0D /* Fillable.swift */,
+				73B8D38320164338008AED0D /* BindIfReady.swift */,
+				733A8C5B205F0FE30028AF3C /* ProperFraction.swift */,
+				733F3DE7206012860077C9C4 /* DelegatedCall.swift */,
+				733F3DF02061A9690077C9C4 /* Lockbox.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
 		C15BF9D41EA00E7000CE09B6 = {
 			isa = PBXGroup;
 			children = (
@@ -221,28 +289,12 @@
 		C15BF9E01EA00E7000CE09B6 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				C15BF9F81EA00EE600CE09B6 /* Dictionary+Merge.swift */,
-				C15BFA001EA0107C00CE09B6 /* Flow.swift */,
-				C15BFA021EA010B800CE09B6 /* String+InsensitiveCompare.swift */,
-				C15BFA061EA0110800CE09B6 /* String+Trimming.swift */,
-				C1B9A898214C349000055D9A /* Optional+Throwing.swift */,
-				C1A3B4D7222DE15100F37A76 /* Optional+Assumptions.swift */,
-				C15BFA081EA0111C00CE09B6 /* ObviousNot.swift */,
-				C15BFA141EA02EE600CE09B6 /* Negatives.swift */,
-				7358FCA11FD49B3A00FC42B3 /* Debounce.swift */,
-				73DC9A611F2ABE7900A8C29B /* Stopwatch.swift */,
-				73CB73211F2B860F00C34A29 /* CartesianProductSequence.swift */,
-				7358FC9C1FD4779200FC42B3 /* Numeric+Clamp.swift */,
-				73E1C0581FF95BAC006CFF78 /* Oscillator.swift */,
-				73B8D38520164464008AED0D /* Fillable.swift */,
-				73B8D38320164338008AED0D /* BindIfReady.swift */,
-				73B8D38D2016871B008AED0D /* Maybes.swift */,
-				733BEE8E203635DF00358AAC /* Memo.swift */,
-				733BEE902036362D00358AAC /* MaybeMemo.swift */,
-				733A8C5B205F0FE30028AF3C /* ProperFraction.swift */,
-				733F3DE7206012860077C9C4 /* DelegatedCall.swift */,
-				733F3DF02061A9690077C9C4 /* Lockbox.swift */,
-				C11231632100DDD7007EF0F6 /* URL+Scheme.swift */,
+				73F3575022ECE0F000AEDF3F /* Types */,
+				73F3574F22ECDFE000AEDF3F /* Deprecated */,
+				73F3574E22ECDF6D00AEDF3F /* Operators */,
+				73F3574D22ECDF4800AEDF3F /* Extensions */,
+				73F3574C22ECD90200AEDF3F /* Sequences */,
+				73F3574A22ECD83C00AEDF3F /* Free Functions */,
 			);
 			name = Sources;
 			path = ../Sources/BagOfTricks;
@@ -460,7 +512,7 @@
 			files = (
 				7368DDC52095326400DB0A45 /* BindIfReady.swift in Sources */,
 				7368DDC42095326400DB0A45 /* Fillable.swift in Sources */,
-				7368DDBB2095326400DB0A45 /* String+InsensitiveCompare.swift in Sources */,
+				7368DDBB2095326400DB0A45 /* InsensitiveCompareOperator.swift in Sources */,
 				7368DDBD2095326400DB0A45 /* ObviousNot.swift in Sources */,
 				7368DDBE2095326400DB0A45 /* Negatives.swift in Sources */,
 				7368DDC32095326400DB0A45 /* Oscillator.swift in Sources */,
@@ -472,6 +524,7 @@
 				C1B9A89E214C34C700055D9A /* Optional+Throwing.swift in Sources */,
 				7368DDC22095326400DB0A45 /* Numeric+Clamp.swift in Sources */,
 				7368DDBC2095326400DB0A45 /* String+Trimming.swift in Sources */,
+				736BCBBC22ECE1B6000D2C83 /* IdentityFunction.swift in Sources */,
 				7368DDC72095326400DB0A45 /* Memo.swift in Sources */,
 				7368DDC12095326400DB0A45 /* CartesianProductSequence.swift in Sources */,
 				7368DDC92095326400DB0A45 /* ProperFraction.swift in Sources */,
@@ -516,7 +569,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73B8D38420164338008AED0D /* BindIfReady.swift in Sources */,
-				C15BFA031EA010B800CE09B6 /* String+InsensitiveCompare.swift in Sources */,
+				C15BFA031EA010B800CE09B6 /* InsensitiveCompareOperator.swift in Sources */,
 				C15BFA011EA0107C00CE09B6 /* Flow.swift in Sources */,
 				7358FCA21FD49B3A00FC42B3 /* Debounce.swift in Sources */,
 				73B8D38620164464008AED0D /* Fillable.swift in Sources */,
@@ -529,6 +582,7 @@
 				73B8D38E2016871B008AED0D /* Maybes.swift in Sources */,
 				C15BFA071EA0110800CE09B6 /* String+Trimming.swift in Sources */,
 				7358FC9D1FD4779200FC42B3 /* Numeric+Clamp.swift in Sources */,
+				736BCBBB22ECE1B4000D2C83 /* IdentityFunction.swift in Sources */,
 				733BEE8F203635DF00358AAC /* Memo.swift in Sources */,
 				73CB73221F2B860F00C34A29 /* CartesianProductSequence.swift in Sources */,
 				733A8C5C205F0FE30028AF3C /* ProperFraction.swift in Sources */,

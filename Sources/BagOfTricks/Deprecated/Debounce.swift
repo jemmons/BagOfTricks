@@ -2,6 +2,8 @@ import Foundation
 
 
 
+@available(iOS, deprecated: 13, message: "Use Apple’s `Combine` framework instead.")
+@available(macOS, deprecated: 10.15, message: "Use Apple’s `Combine` framework instead.")
 public class Debounce {
   private let threshold: TimeInterval
   private let refractoryPeriod: TimeInterval?

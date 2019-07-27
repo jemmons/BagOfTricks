@@ -2,6 +2,7 @@ import Foundation
 
 
 
+@available(swift, deprecated: 5.1, message: "Better implemented as a property wrapper")
 public class MaybeMemo<T> {
   private var state: T? = nil
   private let factory: ()->T?
