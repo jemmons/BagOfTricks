@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7309085922ED3A79007304E0 /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7309085822ED3A79007304E0 /* Identity.swift */; };
+		7309085A22ED3A79007304E0 /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7309085822ED3A79007304E0 /* Identity.swift */; };
+		7309085C22ED3BC5007304E0 /* IdentityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7309085B22ED3BC5007304E0 /* IdentityTests.swift */; };
+		7309085D22ED3BC5007304E0 /* IdentityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7309085B22ED3BC5007304E0 /* IdentityTests.swift */; };
 		733A8C5C205F0FE30028AF3C /* ProperFraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733A8C5B205F0FE30028AF3C /* ProperFraction.swift */; };
 		733A8C5F205F11420028AF3C /* ProperFractionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733A8C5D205F11370028AF3C /* ProperFractionTests.swift */; };
 		733BEE8F203635DF00358AAC /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733BEE8E203635DF00358AAC /* Memo.swift */; };
@@ -115,6 +119,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7309085822ED3A79007304E0 /* Identity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identity.swift; sourceTree = "<group>"; };
+		7309085B22ED3BC5007304E0 /* IdentityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityTests.swift; sourceTree = "<group>"; };
 		733A8C5B205F0FE30028AF3C /* ProperFraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProperFraction.swift; sourceTree = "<group>"; };
 		733A8C5D205F11370028AF3C /* ProperFractionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProperFractionTests.swift; sourceTree = "<group>"; };
 		733BEE8E203635DF00358AAC /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
@@ -203,6 +209,7 @@
 			children = (
 				C15BFA001EA0107C00CE09B6 /* Flow.swift */,
 				73DC9A611F2ABE7900A8C29B /* Stopwatch.swift */,
+				7309085822ED3A79007304E0 /* Identity.swift */,
 			);
 			path = "Free Functions";
 			sourceTree = "<group>";
@@ -320,6 +327,7 @@
 				C112315E20FFF0E2007EF0F6 /* URLSchemeTests.swift */,
 				C1B9A89A214C34AC00055D9A /* OptionalThrowingTests.swift */,
 				C1A3B4DA222DE21500F37A76 /* OptionalAssumptionsTests.swift */,
+				7309085B22ED3BC5007304E0 /* IdentityTests.swift */,
 			);
 			name = Tests;
 			path = ../Tests/BagOfTricksTests;
@@ -527,6 +535,7 @@
 				7368DDBA2095326400DB0A45 /* Flow.swift in Sources */,
 				7368DDCA2095326400DB0A45 /* DelegatedCall.swift in Sources */,
 				7368DDBF2095326400DB0A45 /* Debounce.swift in Sources */,
+				7309085A22ED3A79007304E0 /* Identity.swift in Sources */,
 				7368DDC02095326400DB0A45 /* Stopwatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -536,6 +545,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7368DDA820952E9F00DB0A45 /* StringInsensitiveCompareTests.swift in Sources */,
+				7309085D22ED3BC5007304E0 /* IdentityTests.swift in Sources */,
 				7368DDAF20952E9F00DB0A45 /* ClampTests.swift in Sources */,
 				7368DDB820952E9F00DB0A45 /* LockboxTests.swift in Sources */,
 				7368DDA920952E9F00DB0A45 /* StringTrimmingTests.swift in Sources */,
@@ -584,6 +594,7 @@
 				C15BFA151EA02EE600CE09B6 /* Negatives.swift in Sources */,
 				733F3DE8206012860077C9C4 /* DelegatedCall.swift in Sources */,
 				C15BFA091EA0111C00CE09B6 /* ObviousNot.swift in Sources */,
+				7309085922ED3A79007304E0 /* Identity.swift in Sources */,
 				73DC9A621F2ABE7900A8C29B /* Stopwatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -593,6 +604,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C15BF9FB1EA00F0300CE09B6 /* DictionaryMergeTests.swift in Sources */,
+				7309085C22ED3BC5007304E0 /* IdentityTests.swift in Sources */,
 				7358FCA01FD477CB00FC42B3 /* ClampTests.swift in Sources */,
 				733F3DF42061A9A30077C9C4 /* LockboxTests.swift in Sources */,
 				C15BFA0D1EA0117F00CE09B6 /* StringTrimmingTests.swift in Sources */,
