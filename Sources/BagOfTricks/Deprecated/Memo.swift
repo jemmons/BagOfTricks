@@ -2,6 +2,7 @@ import Foundation
 
 
 
+@available(swift, deprecated: 5.1, message: "Better implemented as a property wrapper")
 public class Memo<T> {
   private var maybe: MaybeMemo<T>
   
