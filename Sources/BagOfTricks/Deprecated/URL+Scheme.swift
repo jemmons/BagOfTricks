@@ -44,7 +44,7 @@ public extension URL {
 }
 
 
-
+@available(*, deprecated, message: "This functionality has been moved to `MyNameIsURL` (https://github.com/jemmons/MyNameIsURL)")
 private extension URL.Scheme {
   private static let validFirstCharacters: Set<Character> = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
   private static let validCharacters: Set<Character> = validFirstCharacters.union(["+", "-", ".", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"])
@@ -64,6 +64,7 @@ private extension URL.Scheme {
 
 
 
+@available(*, deprecated, message: "This functionality has been moved to `MyNameIsURL` (https://github.com/jemmons/MyNameIsURL)")
 public func ~=(pattern: URL.Scheme, value: URL) -> Bool {
   return pattern.value == value.scheme
 }
