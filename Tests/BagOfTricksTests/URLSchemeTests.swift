@@ -34,6 +34,7 @@ class URLSchemeTests: XCTestCase {
   ]
   
   
+  @available(*, deprecated)
   func testValid() {
     validSchemes.forEach { scheme in
       XCTAssertNotNil(try? URL.Scheme(scheme))
@@ -41,11 +42,13 @@ class URLSchemeTests: XCTestCase {
   }
   
   
+  @available(*, deprecated)
   func testLowercase() {
     XCTAssertEqual(try! URL.Scheme("HTTP").value, "http")
   }
   
   
+  @available(*, deprecated)
   func testValidsDontCrash() {
     validSchemes.forEach { scheme in
       var comps = URLComponents()
@@ -54,6 +57,7 @@ class URLSchemeTests: XCTestCase {
   }
   
   
+  @available(*, deprecated)
   func testInvalid() {
     invalidSchemes.forEach { scheme in
       XCTAssertNil(try? URL.Scheme(scheme))
@@ -61,6 +65,7 @@ class URLSchemeTests: XCTestCase {
   }
   
   
+  @available(*, deprecated)
   func testCatchLength() {
     let expectedThrow = expectation(description: "Waiting for requiredLength error")
     do {
@@ -75,6 +80,7 @@ class URLSchemeTests: XCTestCase {
   }
   
   
+  @available(*, deprecated)
   func testCatchFirstCharacter() {
     let expectedThrow = expectation(description: "Waiting for invalidFirstCharacter error")
     do {
@@ -89,6 +95,7 @@ class URLSchemeTests: XCTestCase {
   }
 
   
+  @available(*, deprecated)
   func testCatchInvalidCharacter() {
     let expectedThrow = expectation(description: "Waiting for invalidCharacters error")
     do {
@@ -103,6 +110,7 @@ class URLSchemeTests: XCTestCase {
   }
 
   
+  @available(*, deprecated)
   func testReplacingScheme() {
     let subject = URL(string: "http://example.com")!
     let newScheme = try! URL.Scheme("test")
@@ -115,6 +123,7 @@ class URLSchemeTests: XCTestCase {
   }
   
   
+  @available(*, deprecated)
   func testMatcher() {
     let http = URL(string: "http://example.com")!
     switch http {

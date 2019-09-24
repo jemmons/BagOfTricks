@@ -4,6 +4,7 @@ import BagOfTricks
 
 
 class MaybesTests: XCTestCase {
+  @available(*, deprecated)
   func testURLMaybes() {
     XCTAssertNil(URL(maybeString: nil))
     XCTAssertNil(URL(maybeString: "💩"))
