@@ -1,17 +1,18 @@
 import Foundation
 
 
-
-public extension FloatingPoint {
+public extension Numeric where Self: Comparable {
   func clamp(to range: ClosedRange<Self>) -> Self {
-    return Swift.max(range.lowerBound, Swift.min(range.upperBound, self))
+    return max(range.lowerBound, min(range.upperBound, self))
   }
-}
+  
+  
+  func clamp(to range: PartialRangeFrom<Self>) -> Self {
+    return max(range.lowerBound, self)
+  }
 
-
-
-public extension BinaryInteger {
-  func clamp(to range: ClosedRange<Self>) -> Self {
-    return Swift.max(range.lowerBound, Swift.min(range.upperBound, self))
+  
+  func clamp(to range: PartialRangeThrough<Self>) -> Self {
+    return min(range.upperBound, self)
   }
 }
