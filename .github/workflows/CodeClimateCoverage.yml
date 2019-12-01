@@ -51,7 +51,7 @@ jobs:
       run: xcodebuild build-for-testing -scheme ${{ steps.shared.outputs.project }} -enableCodeCoverage YES -derivedDataPath ${{ steps.shared.outputs.buildCachePath }}
 
     - name: Test
-      run: xcodebuild test-without-building -scheme ${{ steps.shared.outputs.project }} -derivedDataPath ${{ steps.shared.outputs.buildCachePath }} -resultBundleVersion 3 -resultBundlePath ${{ steps.shared.outputs.resultPath }}
+      run: xcodebuild test-without-building -scheme ${{ steps.shared.outputs.project }} -enableCodeCoverage YES -derivedDataPath ${{ steps.shared.outputs.buildCachePath }} -resultBundleVersion 3 -resultBundlePath ${{ steps.shared.outputs.resultPath }}
 
     - name: Parse Coverage
       uses: jemmons/GenerateXCCovJSONAction@v1
