@@ -47,8 +47,11 @@ jobs:
     - name: Test Reporter Before
       run: ${{ steps.shared.outputs.ccPath }} before-build
 
-    - name: Build and Test
-      run: xcodebuild test -scheme ${{ steps.shared.outputs.project }} -enableCodeCoverage YES -resultBundlePath ${{ steps.shared.outputs.resultPath }} -derivedDataPath ${{ steps.shared.outputs.buildCachePath }}
+    - name: Build
+      run: xcodebuild build-for-testing -scheme ${{ steps.shared.outputs.project }} -enableCodeCoverage YES -derivedDataPath ${{ steps.shared.outputs.buildCachePath }}
+
+    - name: Test
+      run: xcodebuild test-without-building -scheme ${{ steps.shared.outputs.project }} -derivedDataPath ${{ steps.shared.outputs.buildCachePath }} -resultBundleVersion 3 -resultBundlePath ${{ steps.shared.outputs.resultPath }}
 
     - name: Parse Coverage
       uses: jemmons/GenerateXCCovJSONAction@v1
